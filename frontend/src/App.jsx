@@ -5,7 +5,7 @@ import {
   ShieldCheck, Sparkles, Star, Trophy, UserRound, Volume2, X, Sun, Moon, Info
 } from "lucide-react";
 
-const API = "https://shikshasetu-ai-prototype1.onrender.com";
+const API = `${import.meta.env.VITE_API_URL}/api`;
 
 const TTS_LOCALES = { hindi:"hi-IN", telugu:"te-IN", bengali:"bn-IN", odia:"or-IN", kannada:"kn-IN", santhali:"sat-IN", mundari:"unr-IN", ho:"hoc-IN" };
 
